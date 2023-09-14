@@ -1,6 +1,6 @@
 import pytest
 
-from example_function1.handler import handle
+from calc_drainage_rate.handler import handle
 
 
 @pytest.mark.unit

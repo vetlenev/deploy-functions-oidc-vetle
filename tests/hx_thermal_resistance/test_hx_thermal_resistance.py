@@ -1,6 +1,6 @@
 import pytest
 
-from example_function2.handler import handle
+from hx_thermal_resistance.handler import handle
 
 
 @pytest.mark.unit

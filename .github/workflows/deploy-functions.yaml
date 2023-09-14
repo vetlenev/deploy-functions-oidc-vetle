@@ -8,7 +8,7 @@ jobs:
   generate-matrix:
     uses: "./.github/workflows/generate-matrix.yaml"
     with:
-      deploy_folders: "example_function1, example_function2"
+      deploy_folders: "hx_thermal_resistance, calc_drainage_rate"
       trigger_deploy_all_folders: "common"
 
   deploy:

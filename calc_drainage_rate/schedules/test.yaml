@@ -1,0 +1,10 @@
+- name: My daily schedule
+  cron: "0 0 * * *"
+  data:
+    ts_input_name: "VAL_11-LT-95034A:X.Value"
+    ts_output_name: "VAL_11-LT-95034A:X.CDF.D.AVG.LeakValue"
+    tank_volume: 1400
+    derivative_value_excl: 0.002
+    tot_days: 25
+    start_date: "2023-03-21-01-00-00"
+    data_set_id: 7289494538225428
