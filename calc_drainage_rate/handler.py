@@ -90,7 +90,7 @@ def handle(client: CogniteClient, data: dict) -> pd.DataFrame:
 
     mean_df.index = pd.to_datetime(mean_df.index)
     ts_inserted = client.time_series.data.insert_dataframe(mean_df)
-    # ts_inserted = "hei"
+    ts_inserted = "hei"
 
     if data["dry_run"]:  # Delete ts if testing locally
         client.time_series.delete(external_id=ts_output_name)
